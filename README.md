@@ -1,2 +1,2 @@
 # Leetcode-Daily-Challenge
-leet code daily chalenge solution 
+leet code daily challenge solution 

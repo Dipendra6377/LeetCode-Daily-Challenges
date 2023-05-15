@@ -42,7 +42,7 @@ class Solution{
         
         
         for(int i=1;i<=n;i++){
-            for(int j=0;j<=n;j++){
+            for(int j=1;j<=n;j++){
                 if(len[i-1]<=j){
                     dp[i][j]=Math.max(price[i-1]+dp[i][j-len[i-1]],dp[i-1][j]);
                 }
